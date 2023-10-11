@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: darkslategray;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+}
+header h1{
+    color: white;
+}
+.content{
+    margin-left: 15vw;
+}
+aside {
+    background-color: rgb(191, 0, 255);
+    width: 20vw;
+    height: 60vh;
+    float: left;
+    border-left: 10px solid gold;
+    border-top: 10px solid gold;
+}
+
+main {
+    background-color: rgb(178, 132, 32);
+    width: 25vw;
+    height: 60vh;
+    float: left;
+    border-top: 10px solid gold;
+  
+
+}
+
+sub {
+    background-color: rgb(64, 224, 72);
+    width: 25vw;
+    height: 60vh;
+    float: left;
+    border-right: 10px solid gold;
+    border-top: 10px solid gold;
+  
+}
+
+footer {
+    background-color: lightgreen;
+    width: 70vw;
+    height: 10vh;
+    clear: left;
+    border-left: 10px solid gold;
+    border-right: 10px solid gold;
+    border-bottom: 10px solid gold;
+}
